@@ -17,16 +17,23 @@ export default function PagePost(props: PageProps) {
       <head>
         <title>{post.title}</title>
       </head>
-      <article class="p-4">
-        <h1 class="text-2xl font-bold">
-          {post.title}
-        </h1>
-        <time>{Intl.DateTimeFormat("es").format(post.date)}</time>
-        <style dangerouslySetInnerHTML={{ __html: CSS }} />
-        <div
-          class="markdown-body"
-          dangerouslySetInnerHTML={{ __html: post.body }}
-        />
+      <article>
+        <header class="text-center bg-blue-500 px-4 py-2 text-white">
+          <h1 class="text-3xl font-bold">
+            {post.title}
+          </h1>
+          <time>
+            <strong>Publicado:</strong>{" "}
+            {Intl.DateTimeFormat("es").format(post.date)}
+          </time>
+        </header>
+        <main class="pt-4 px-6 md:px-32 xl:px-96">
+          <style dangerouslySetInnerHTML={{ __html: CSS }} />
+          <div
+            class="markdown-body text-justify"
+            dangerouslySetInnerHTML={{ __html: post.body }}
+          />
+        </main>
       </article>
     </>
   );

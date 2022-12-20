@@ -18,21 +18,27 @@ export default function Home(props: PageProps) {
       <head>
         <title>Blog</title>
       </head>
-      <main class="p-4 flex justify-center flex-col items-center">
-        <h1 class="text-4xl font-bold text-center">Mi blog</h1>
+      <main class="flex justify-center flex-col items-center">
+        <h1 class="text-4xl bg-yellow-500 font-bold text-center
+        w-full p-2">
+          Mi blog
+        </h1>
         {posts.map((post: Post) => (
-          <article class="py-4 w-max">
+          <article class="py-4 max-w-xs">
             <a class="hover:text-blue-600" href={`/blog/${post.id}`}>
               <h2 class="text-2xl font-bold">
                 {post.title}
               </h2>
               <img
-                class="max-w-xs rounded-lg"
+                class="rounded-lg"
                 src={post.thumb}
                 alt={post.title}
               />
             </a>
-            <p>{post.excerpt}</p>
+            <p class={`max-w-xs text-justify mb-2 line-clamp-3`}>
+              {post.excerpt}
+            </p>
+
             <time>{Intl.DateTimeFormat("es").format(post.date)}</time>
           </article>
         ))}
