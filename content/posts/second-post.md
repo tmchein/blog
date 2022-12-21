@@ -1,6 +1,6 @@
 ---
 title: Second Post
-thumb: https://images3.memedroid.com/images/UPLOADED448/626f507dea4a4.jpeg
+thumb: https://virtualbackgrounds.site/wp-content/uploads/2020/07/this-is-fine.jpeg
 date: 2022-12-18
 excerpt: This is my second post
 ---

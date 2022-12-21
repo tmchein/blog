@@ -12,3 +12,5 @@ cual constará de resolver máquinas tipo CTF de la plataforma TryHackMe, la ide
 de este nuevo formato es aprender de forma más practica los conocimientos que
 hemos ido recogiendo a lo largo del blog. Para este caso un servidor web el cual
 se llama Pickle Rick, sin más preámbulos... ¡¡La máquina!!
+
+<img width="650" src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/06/rick-morty-2381623.jpg">
