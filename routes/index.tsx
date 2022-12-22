@@ -16,13 +16,13 @@ export default function Home(props: PageProps) {
 
   return (
     <Layout title="TMBlog">
-      <main class="flex justify-center flex-col items-center">
+      <section class="flex justify-center h-full flex-col items-center">
         <h1 class="text-4xl text-white bg-blue-500 font-bold text-center
         py-2 px-6 mb-8 rounded-b-xl">
           TMBlog
         </h1>
         <PostEntryList posts={posts} />
-      </main>
+      </section>
     </Layout>
   );
 }

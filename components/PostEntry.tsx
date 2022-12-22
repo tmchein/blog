@@ -8,8 +8,8 @@ export function PostEntry(
   },
 ) {
   return (
-    <article class="py-4 max-w-sm text-gray-700 border rounded-xl border-gray-200 p-4">
-      <a class="hover:text-blue-600" href={`/blog/${id}`}>
+    <article class="py-4 max-w-xs text-gray-50 border rounded-xl border-gray-200 p-4">
+      <a class="hover:text-blue-400" href={`/blog/${id}`}>
         <h2 class="text-2xl font-bold">
           {title}
         </h2>

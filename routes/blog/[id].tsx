@@ -25,10 +25,14 @@ export default function PagePost(props: PageProps) {
             {Intl.DateTimeFormat("es").format(post.date)}
           </time>
         </header>
-        <main class="pt-8 px-6 md:px-32 xl:px-96">
+        <main class="pt-8 px-6 md:px-32 xl:px-[400px]">
           <style dangerouslySetInnerHTML={{ __html: CSS }} />
           <div
             class="markdown-body text-justify"
+            style={{
+              backgroundColor: "transparent",
+              color: "#eee",
+            }}
             dangerouslySetInnerHTML={{ __html: post.body }}
           />
         </main>
