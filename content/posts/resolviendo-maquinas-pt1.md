@@ -13,6 +13,4 @@ de este nuevo formato es aprender de forma más practica los conocimientos que
 hemos ido recogiendo a lo largo del blog. Para este caso un servidor web el cual
 se llama Pickle Rick, sin más preámbulos... ¡¡La máquina!!
 
-<p align="center">
-  <img width="650" src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/06/rick-morty-2381623.jpg">
-</p>
+<img width="650" align="center" src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/06/rick-morty-2381623.jpg">

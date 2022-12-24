@@ -1,5 +1,5 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { CSS } from "https://deno.land/x/gfm@0.1.26/mod.ts";
+import { CSS } from "../../utils/gfmCSS.ts";
 import { Layout } from "../../components/Layout.tsx";
 import { loadPost } from "../../utils/posts.ts";
 import { asset } from "$fresh/runtime.ts";
