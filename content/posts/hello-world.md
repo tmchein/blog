@@ -1,5 +1,5 @@
 ---
-title: AdventJS 2022, mi relexión
+title: AdventJS 2022, mi reflexión
 excerpt: Hablamos sobre el AdventJS 2022, que se celebró a lo largo de todo el mes de diciembre de 2022.
 date: 2022-12-24
 thumb: https://i.postimg.cc/MThF1s0z/Proyecto-nuevo.jpg
