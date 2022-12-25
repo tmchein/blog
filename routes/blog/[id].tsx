@@ -39,9 +39,12 @@ export default function PagePost(props: PageProps) {
           <style dangerouslySetInnerHTML={{ __html: CSS }} />
           <div
             class="markdown-body text-justify"
+            data-color-mode="dark"
+            data-dark-theme="dark"
             style={{
               backgroundColor: "transparent",
               color: "#eee",
+              fontSize: "1.15rem",
             }}
             dangerouslySetInnerHTML={{ __html: post.body }}
           />
