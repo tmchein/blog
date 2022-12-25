@@ -10,14 +10,20 @@ export function Layout(
         <title>{title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content={title} />
+        <meta name="twitter:title" content="TMBlog" />
         <meta property="og:type" content="blog" />
         <meta property="og:locale" content="es-CO" />
         <meta
           property="og:url"
           content="https://www.tmblog.deno.dev"
         />
+        <meta name="twitter:url" content="https://www.tmblog.deno.dev" />
         <meta
           property="og:image"
+          content="https://i.postimg.cc/vmRNk2gk/tmblog-og-image.png"
+        />
+        <meta
+          name="twitter:image"
           content="https://i.postimg.cc/vmRNk2gk/tmblog-og-image.png"
         />
         <meta property="og:image:width" content="1200" />
@@ -31,6 +37,11 @@ export function Layout(
           property="og:description"
           content="Blog de opinión personal, tecnología, programación y desarrollo web."
         />
+        <meta
+          name="twitter:description"
+          content="Blog de opinión personal, tecnología, programación y desarrollo web."
+        />
+        <meta name="twitter:card" content="summary" />
       </head>
       <main class="flex-grow-1">
         {children}
