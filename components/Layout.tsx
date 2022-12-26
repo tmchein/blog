@@ -14,7 +14,7 @@ export function Layout(
         <meta property="og:locale" content="es-CO" />
         <meta
           property="og:url"
-          content="https://www.tmblog.deno.dev"
+          content="https://www.blog.tmchein.dev/"
         />
         <meta
           property="og:image"
@@ -37,7 +37,7 @@ export function Layout(
         />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="TMBlog" />
-        <meta name="twitter:url" content="https://www.tmblog.deno.dev" />
+        <meta name="twitter:url" content="https://www.blog.tmchein.dev/" />
         <meta
           name="twitter:description"
           content="Blog de opinión personal, tecnología, programación y desarrollo web."
