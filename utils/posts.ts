@@ -1,5 +1,5 @@
 import { extract } from "https://deno.land/std@0.170.0/encoding/front_matter.ts";
-import { render } from "https://deno.land/x/gfm/mod.ts";
+import { render } from "https://deno.land/x/flavoredmd@v0.0.1/mod.ts";
 import type { Post } from "../types.d.ts";
 
 export async function loadPost(id: string): Promise<Post | null> {

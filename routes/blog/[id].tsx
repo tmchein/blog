@@ -1,8 +1,8 @@
+import { asset } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { CSS } from "../../utils/gfmCSS.ts";
+import { CSS } from "https://deno.land/x/flavoredmd@v0.0.1/mod.ts";
 import { Layout } from "../../components/Layout.tsx";
 import { loadPost } from "../../utils/posts.ts";
-import { asset } from "$fresh/runtime.ts";
 
 export const handler: Handlers = {
   async GET(request, context) {
