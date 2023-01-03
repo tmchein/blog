@@ -19,16 +19,17 @@ alt="El logo de adventJS, el cual se compone de la palabra AdventJS, seguido de 
 ## ¿Qué es el AdventJS?
 
 El AdventJS es un evento que se celebra a lo largo de todo el mes de diciembre,
-fue creado por [@Midudev](https://twitter.com/midudev) y comenzó en el año 2021
-como un proyecto diseñado para ayudar a los desarrolladores a mejorar sus
-habilidades, y a la vez, ayudar a la comunidad a enfrentarse a nuevos retos, y a
-aprender cosas nuevas. El evento consiste en que cada día del mes de diciembre,
-a las 18:00 horas (hora española), se publica un nuevo reto, el cual consiste en
-resolver un reto de programación que puede ser facil, medio o dificil. Lo mejor
-de todo en mi opinión, es que está abierto para personas de todos los niveles y
-abierto a personas angloparlantes e hispanohablantes, demostrando que la
-comunidad de desarrolladores se está expandiendo cada vez más,
-independientemente de la lengua que se hable.
+fue creado por
+<a href="https://twitter.com/midudev" rel="noopener noreferrer" target="_blank">@Midudev</a>
+y comenzó en el año 2021 como un proyecto diseñado para ayudar a los
+desarrolladores a mejorar sus habilidades, y a la vez, ayudar a la comunidad a
+enfrentarse a nuevos retos, y a aprender cosas nuevas. El evento consiste en que
+cada día del mes de diciembre, a las 18:00 horas (hora española), se publica un
+nuevo reto, el cual consiste en resolver un reto de programación que puede ser
+facil, medio o dificil. Lo mejor de todo en mi opinión, es que está abierto para
+personas de todos los niveles y abierto a personas angloparlantes e
+hispanohablantes, demostrando que la comunidad de desarrolladores se está
+expandiendo cada vez más, independientemente de la lengua que se hable.
 
 <img src="https://i.postimg.cc/htRWxGDH/advent-landing.png" 
 width="640px" align="center"
@@ -84,10 +85,11 @@ oportunidad de aprender y crecer como profesionales. También invitar a todas la
 personas que estén leyendo este post a darle un intento al AdventJS, no importa
 si no lo logras, lo importante es que aprendas algo nuevo, y que te diviertas.
 
-Aquí puedes participar del [Adventjs](https://adventjs.dev/)
+Aquí puedes participar del
+<a href="https://adventjs.dev" rel="noopener noreferrer" target="_blank">AdventJS</a>
 
 Un abrazo enorme y felices fiestas.
 
 Atentamente,
 
-[@tmchein](https://twitter.com/tmchein)
+<a href="https://twitter.com/tmchein" rel="noopener noreferrer" target="_blank">@tmchein</a>
