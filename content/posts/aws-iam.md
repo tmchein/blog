@@ -5,8 +5,8 @@ date: 2023-01-12
 thumb: https://i.postimg.cc/pTHpKG2g/aws-iam.webp
 ---
 
-Hola a todos, ha iniciado el 2023 y actualmente me encuentro haciendo un curso
-de AWS, para posteriormente poder aplicar a la certificacion de AWS, más
+¡Saludos! ha iniciado el 2023 y actualmente me encuentro haciendo un curso de
+AWS, para posteriormente poder aplicar a la certificacion de AWS, más
 especificamente el Certified Developer.
 
 A lo largo de este post hablaremos sobre IAM y todo lo que he aprendido sobre
