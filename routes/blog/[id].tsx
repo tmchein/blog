@@ -35,10 +35,10 @@ export default function PagePost(props: PageProps) {
             </time>
           </section>
         </header>
-        <main class="pt-8 px-6 md:px-32 xl:px-[400px]">
+        <main class="pt-8 px-6 md:px-0 max-w-[75ch] mx-auto">
           <style dangerouslySetInnerHTML={{ __html: CSS }} />
           <div
-            class="markdown-body text-justify"
+            class="markdown-body"
             data-color-mode="dark"
             data-dark-theme="dark"
             style={{
